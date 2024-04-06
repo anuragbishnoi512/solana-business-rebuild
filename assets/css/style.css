@@ -198,6 +198,7 @@
     top: 52%;
     right: 17%;
 }
+
 .gap-38 {
     gap: 38px;
 }
@@ -286,4 +287,95 @@
 .burger-br2 {
     top: 52%;
     right: 17%;
+}
+
+.sec-4-font {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+}
+
+.sec-4-font-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    opacity: 80%;
+    color: black;
+    max-width: 591px;
+}
+
+.discover-more {
+    padding: 15px 32px 15px 32px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: left;
+    color: white;
+    background: #F4241E;
+    border: 1px solid #F4241E;
+    border-radius: 10px;
+}
+
+.discover-more:hover {
+    color: black;
+    background-color: #FFF03F;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.bg-color-red {
+    background-color: #F4241E;
+}
+
+.supplies {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: white;
+}
+
+.sec-6-font-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    color: white;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mt-31 {
+    margin-top: 31px;
+}
+
+.sec-6-font-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    opacity: 80%;
+    text-align: center;
+    color: white;
 }
