@@ -635,3 +635,255 @@
 .faq {
     padding-bottom: 20px;
 }
+
+@media (max-width: 600px) {
+
+
+    .timeline::after {
+        left: 31px;
+    }
+
+
+    .container-t {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+
+    .container-t::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+
+    .left::after,
+    .right::after {
+        left: 13px;
+    }
+
+
+    .right {
+        left: 0%;
+    }
+}
+
+@media (max-width:1200px) {
+    .nav-menu {
+        width: 40px;
+        height: 34px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 4%;
+        transform: translateY(-50%);
+        top: 50%;
+        z-index: 4;
+    }
+
+    .nav-menu span {
+        height: 7px;
+        width: 100%;
+        background-color: white;
+        border-radius: 3px;
+    }
+
+    .nav-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        position: fixed;
+        background: #FFF03F;
+        z-index: 3;
+        transition: all 300ms linear;
+        top: 0;
+    }
+
+    .show {
+        left: 0;
+    }
+}
+
+@media (max-width:992px) {
+    .lg-col-12 {
+        width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .lg-py-50 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .lg-pt-20 {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .md-py-70 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .pt-74 {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width:576px) {
+    .sm-py-40 {
+        padding-top: 40px 0 !important;
+        padding-bottom: 40px !important;
+    }
+
+    .sm-py-30 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .sec-4-font {
+        font-size: 34px;
+        line-height: unset;
+    }
+
+    .mt-48 {
+        margin-top: 20px !important;
+    }
+
+    .pt-74 {
+        padding-top: 50px !important;
+    }
+}
+
+@media (min-width:320px) {
+    .sm-col-12 {
+    width: 100%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .sm-d-none {
+        display: none;
+    }
+
+    .arrow {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:576px) {
+    .md-col-6 {
+        width: 50%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .sec-6-font-1 {
+        font-size: 36px;
+    }
+
+    .sec-6-font-2 {
+        font-size: 14px;
+    }
+
+    .supplies {
+        font-size: 36px;
+    }
+
+    .footer-logo {
+        width: 350px;
+        margin-top: 40px;
+    }
+
+    .md-d-unset {
+        display: unset;
+    }
+
+    .nav-logo {
+        width: 180px;
+    }
+
+    .timeline-font-2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+
+    .arrow {
+        margin-left: 203px;
+    }
+
+    .label {
+        font-size: 18px;
+    }
+
+    .acc-content {
+
+        font-size: 18px;
+    }
+}
+
+@media (min-width:768px) {
+    .lg-col-4 {
+        width: 33.33%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .footer-logo {
+        width: unset;
+    }
+
+    .nav-logo {
+        width: 220px;
+    }
+
+    .timeline-font-2 {
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+
+    .sec-6-font-1 {
+        font-size: 48px;
+    }
+
+    .sec-6-font-2 {
+        font-size: 16px;
+    }
+
+    .supplies {
+        font-size: 48px;
+    }
+}
+
+@media (min-width:992px) {
+    .xl-col-7 {
+        width: 58.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .xl-col-5 {
+        width: 41.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .xl-col-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
