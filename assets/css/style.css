@@ -737,6 +737,15 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
+    .sec-4-font-2 {
+        width: 100%;
+        max-width: unset;
+    }
+
+    .sec-4-font {
+        padding-top: 20px;
+    }
 }
 
 @media (max-width:768px) {
