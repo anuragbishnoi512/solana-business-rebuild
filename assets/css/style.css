@@ -50,6 +50,7 @@
     flex-direction: column;
 }
 
+
 .navbar {
     background-color: #F6E300;
     position: fixed;
@@ -66,6 +67,7 @@
 .pt-74 {
     padding-top: 74px;
 }
+
 
 .bg-color-light-yellow {
     background-color: #FFF03F;
@@ -726,6 +728,15 @@
     .lg-pt-20 {
         padding-top: 20px;
     }
+
+    .flex-direction-col-rev {
+        flex-direction: column-reverse;
+    }
+
+    .text-box {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 @media (max-width:768px) {
@@ -762,11 +773,13 @@
     .pt-74 {
         padding-top: 50px !important;
     }
+
+
 }
 
 @media (min-width:320px) {
     .sm-col-12 {
-    width: 100%;
+        width: 100%;
         padding-right: 12px;
         padding-left: 12px;
     }
